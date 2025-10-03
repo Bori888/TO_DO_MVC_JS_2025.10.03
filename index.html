@@ -10,19 +10,28 @@
     <title>ToDo Lista</title>
     <link rel="stylesheet" href="stilus.css">
     <script type="module" src="main.js"></script>
+    <!-- ezt a második példányt töröld -->
+    <link rel="icon" href="data:,"> <!-- ideiglenes üres favicon -->
 </head>
 
 <body>
     <main>
         <div class="container">
             <h1>ToDo Lista</h1>
-            <input type="text" id="todo-input" placeholder="Írj be valamit...">
-            <button id="add-button">Listába</button>
+
+            <div class="input-container">
+                <input type="text" id="todo-input" placeholder="Írj be valamit...">
+                <button id="add-button">Listába</button>
+            </div>
+
+            <div id="tipus-container">
+                <!-- Itt jelennek meg a típus-checkboxok, új típus gomb és típus törlés gomb -->
+            </div>
+
             <ul id="todo-list"></ul>
         </div>
         <footer>Készítette: I.Bori</footer>
     </main>
-
 </body>
 
 </html>
