@@ -9,7 +9,7 @@ A felhasználó beírhat egy tételt a szövegmezőbe, majd a "Listába" gomb me
 ---
 
 ## Projekt felépítése
-
+```
 /
 ├── controller/
 │ └── ToDoController.js # A vezérlő réteg, kezeli az eseményeket, összeköti a modellt és a nézetet
@@ -21,3 +21,4 @@ A felhasználó beírhat egy tételt a szövegmezőbe, majd a "Listába" gomb me
 ├── main.js # A modulokat összekapcsoló fő JavaScript fájl
 ├── stilus.css # Egyszerű, fekete-fehér, letisztult stíluslap
 └── README.md # Ez a dokumentáció
+\```
